@@ -1,28 +1,43 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/GitHub/footlounge/');
+define('HTTP_SERVER', 'http://oc-env.ap-south-1.elasticbeanstalk.com/');
+//define('HTTP_SERVER', 'http://localhost/GitHub/footlounge/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/GitHub/footlounge/');
+define('HTTPS_SERVER', 'http://oc-env.ap-south-1.elasticbeanstalk.com/');
+//define('HTTPS_SERVER', 'http://localhost/GitHub/footlounge/');
+
+
+$documentRoot = '/var/app/current/';
+//$documentRoot = 'E:/wamp64/www/GitHub/footlounge/';
 
 // DIR
-define('DIR_APPLICATION', 'E:/wamp64/www/GitHub/footlounge/catalog/');
-define('DIR_SYSTEM', 'E:/wamp64/www/GitHub/footlounge/system/');
-define('DIR_IMAGE', 'E:/wamp64/www/GitHub/footlounge/image/');
-define('DIR_LANGUAGE', 'E:/wamp64/www/GitHub/footlounge/catalog/language/');
-define('DIR_TEMPLATE', 'E:/wamp64/www/GitHub/footlounge/catalog/view/theme/');
-define('DIR_CONFIG', 'E:/wamp64/www/GitHub/footlounge/system/config/');
-define('DIR_CACHE', 'E:/wamp64/www/GitHub/footlounge/system/storage/cache/');
-define('DIR_DOWNLOAD', 'E:/wamp64/www/GitHub/footlounge/system/storage/download/');
-define('DIR_LOGS', 'E:/wamp64/www/GitHub/footlounge/system/storage/logs/');
-define('DIR_MODIFICATION', 'E:/wamp64/www/GitHub/footlounge/system/storage/modification/');
-define('DIR_UPLOAD', 'E:/wamp64/www/GitHub/footlounge/system/storage/upload/');
+define('DIR_APPLICATION', $documentRoot . 'catalog/');
+define('DIR_SYSTEM', $documentRoot . 'system/');
+define('DIR_IMAGE', $documentRoot . 'image/');
+define('DIR_LANGUAGE', $documentRoot . 'catalog/language/');
+define('DIR_TEMPLATE', $documentRoot . 'catalog/view/theme/');
+define('DIR_CONFIG', $documentRoot . 'system/config/');
+define('DIR_CACHE', $documentRoot . 'system/storage/cache/');
+define('DIR_DOWNLOAD', $documentRoot . 'system/storage/download/');
+define('DIR_LOGS', $documentRoot . 'system/storage/logs/');
+define('DIR_MODIFICATION', $documentRoot . 'system/storage/modification/');
+define('DIR_UPLOAD', $documentRoot . 'system/storage/upload/');
 
 // DB
+
 define('DB_DRIVER', 'mysqli');
+define('DB_HOSTNAME', 'aav1q27cxggoto.cvwrkeif9dtm.ap-south-1.rds.amazonaws.com');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'Welcome!23');
+define('DB_DATABASE', 'endb');
+define('DB_PORT', '3306');
+define('DB_PREFIX', 'oc_');
+
+/*define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'footlounge_oc');
 define('DB_PORT', '3306');
-define('DB_PREFIX', 'oc_');
+define('DB_PREFIX', 'oc_');*/
