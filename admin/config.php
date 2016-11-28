@@ -32,9 +32,9 @@ define('DIR_CATALOG', $documentRoot . 'catalog/');
 
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'aav1q27cxggoto.cvwrkeif9dtm.ap-south-1.rds.amazonaws.com');
-define('DB_USERNAME', 'root');
+define('DB_USERNAME', 'admin');
 define('DB_PASSWORD', 'Welcome!23');
-define('DB_DATABASE', 'endb');
+define('DB_DATABASE', 'ebdb');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
 
