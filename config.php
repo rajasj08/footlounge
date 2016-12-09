@@ -1,10 +1,10 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://oc-env.ap-south-1.elasticbeanstalk.com/');
+define('HTTP_SERVER', 'http://testi-env.ap-south-1.elasticbeanstalk.com/');
 //define('HTTP_SERVER', 'http://localhost/GitHub/footlounge/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://oc-env.ap-south-1.elasticbeanstalk.com/');
+define('HTTPS_SERVER', 'http://testi-env.ap-south-1.elasticbeanstalk.com/');
 //define('HTTPS_SERVER', 'http://localhost/GitHub/footlounge/');
 
 
