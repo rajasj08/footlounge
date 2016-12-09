@@ -27,7 +27,7 @@ define('DIR_UPLOAD', $documentRoot . 'system/storage/upload/');
 // DB
 
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'aaf3263vbh2u4c.cvwrkeif9dtm.ap-south-1.rds.amazonaws.com');
+define('DB_HOSTNAME', 'aaf3263vbh2u4c.cvwrkeif9dtm.ap-south-1.rds.amazonaws.com'); 
 define('DB_USERNAME', 'admin');
 define('DB_PASSWORD', 'Welcome!23');
 define('DB_DATABASE', 'ebdb');
