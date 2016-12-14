@@ -1,7 +1,5 @@
 <?php
 error_reporting(1);
-echo "rash";
-die;
 // Version
 define('VERSION', '2.3.0.2');
 
